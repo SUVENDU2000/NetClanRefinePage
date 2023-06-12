@@ -56,15 +56,47 @@
 		5845D3112A3645990070E309 /* NetClan */ = {
 			isa = PBXGroup;
 			children = (
-				5845D3122A3645990070E309 /* AppDelegate.swift */,
-				5845D3142A3645990070E309 /* SceneDelegate.swift */,
-				5845D3162A3645990070E309 /* ViewController.swift */,
-				5845D3182A3645990070E309 /* Main.storyboard */,
-				5845D31B2A36459A0070E309 /* Assets.xcassets */,
-				5845D31D2A36459A0070E309 /* LaunchScreen.storyboard */,
+				58D871032A376B6700CF638B /* Application */,
+				58D871012A376A4700CF638B /* Resources */,
+				58D871042A376B8100CF638B /* View */,
+				58D871022A376A7800CF638B /* Controller */,
 				5845D3202A36459A0070E309 /* Info.plist */,
 			);
 			path = NetClan;
+			sourceTree = "<group>";
+		};
+		58D871012A376A4700CF638B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5845D31B2A36459A0070E309 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		58D871022A376A7800CF638B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5845D3162A3645990070E309 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		58D871032A376B6700CF638B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5845D3122A3645990070E309 /* AppDelegate.swift */,
+				5845D3142A3645990070E309 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		58D871042A376B8100CF638B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5845D3182A3645990070E309 /* Main.storyboard */,
+				5845D31D2A36459A0070E309 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +333,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Suvendu-Kumar.NetClan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,6 +363,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Suvendu-Kumar.NetClan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
